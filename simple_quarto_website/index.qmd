@@ -1,0 +1,87 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Baking Recipes
+
+Welcome to this website [^1], your go-to source for delicious and easy-to-follow baking recipes! Whether you're a seasoned baker or just getting started, you'll find a variety of desserts to satisfy any sweet tooth. From classic cakes and cookies to indulgent pastries and pies, we’ve got something for every occasion [@myers1992density, pp. 33-35]. Explore our recipes, gather your ingredients, and let’s start baking up some magic in the kitchen!
+Source: https://quarto.org/docs/authoring/citations.html
+> "Baking is both an art and a science. The joy comes from creating something beautiful and delicious from simple ingredients." – Unknown
+
+## General flow of recipes
+
+```{mermaid}
+flowchart LR
+    A(Start Baking) --> B(Gather Ingredients)
+    B --> C(Mix Ingredients)
+    C --> D(Preheat Oven)
+    D --> E(Bake Dessert)
+    E --> F(Enjoy Your Creation!)
+```
+
+## Cookies
+
+Cookies are the ultimate comfort treat—crispy, chewy, or soft, there's a perfect cookie for everyone! In this section, you'll find a variety of cookie recipes, from timeless classics like chocolate chip to fun twists and seasonal favorites. Whether you're baking for a party, sharing with friends, or simply indulging yourself, these recipes will help you bake up a batch of deliciousness in no time. Grab your mixing bowl and let’s get started!
+
+### Chocolate Chip Cookies
+
+![Chocolate Chip Cookie](images/cookie.jpg)
+
+:::: {.columns}
+:::{.column width="50%"}
+Ingredients:
+
+* 2 ¼ cups all-purpose flour
+* 1 tsp baking soda
+* ½ tsp salt
+* 1 cup unsalted butter, softened
+* ¾ cup granulated sugar
+* ¾ cup packed brown sugar
+* 1 tsp vanilla extract
+* 2 large eggs
+* 2 cups semi-sweet chocolate chips
+:::
+
+:::{.column width="50%"}
+Instructions:
+
+Preheat your oven to 350°F (175°C) and line a baking sheet with parchment paper. In a medium bowl, whisk together the flour, baking soda, and salt, then set aside. In a large bowl, cream the softened butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy. Beat in the eggs one at a time until well combined. Gradually add the dry ingredients to the wet mixture, mixing just until combined. Stir in the chocolate chips until evenly distributed. Drop spoonfuls of dough onto the prepared baking sheet, leaving about 2 inches between each cookie. Bake for 10-12 minutes, or until the edges are golden brown but the centers are still soft. Let the cookies cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.
+:::
+::::
+Source for columns: https://stackoverflow.com/questions/74162212/two-columns-layout-in-quarto
+
+
+## Muffins
+
+Muffins are a delightful and versatile treat, perfect for breakfast, snacks, or even dessert! In this section, you'll discover an array of muffin recipes, from fruity favorites like blueberry and banana to decadent chocolate and savory options. Whether you’re in the mood for something sweet or wholesome, these easy-to-bake muffins are sure to hit the spot. Get ready to fill your kitchen with the warm, inviting aroma of freshly baked goodness!
+
+### Table of Muffins
+
+| Type | URL |
+|------|-----|
+|Chocolate Chips | https://sallysbakingaddiction.com/bakery-style-chocolate-chip-muffins/ |
+|Blueberry| https://www.allrecipes.com/recipe/6865/to-die-for-blueberry-muffins/ |
+| Double chocolate| https://sallysbakingaddiction.com/double-chocolate-muffins/|
+
+![Chocolate Chip Muffin](images/choc_chip.jpg)
+
+## Cakes
+
+### Lemon Cake
+
+{{< video https://www.youtube.com/watch?v=dQ5JgHqGNSs>}}
+
+## Extra Note
+
+To convert temperatures from Celsius to Fahrenheit use the equation $C = (F - 32) \frac{5}{9}$
+
+To go the other direction, use the following equation:
+
+$$ F = \frac{9}{5}*C + 32 $$
+
+[^1]: Footnote: all content on this website was generated using ChatGPT and support for figuring out some features came from the following source: https://quarto.org/docs/authoring/markdown-basics.html

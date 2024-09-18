@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#skill-level-difficult",
+    "href": "about.html#skill-level-difficult",
+    "title": "About",
+    "section": "Skill Level: Difficult",
+    "text": "Skill Level: Difficult\n\nMacarons\nCertain desserts are known for requiring more skills. Macarons are one of these recipes. There are a lot of components that impact how these desserts turn out and making the perfect macaron takes skill, practice, and patience. The crusts need to be crispy, with soft cookies and an even coloring.\n\n\nSwirl Cakes\nThese cakes are also known as a difficult dessert to make. It requires baking a cake to the perfect thickness, letting it cool to the right temperature before frosting it, and rolling the cake carefully without breaking it. Again, with practice and patience, this beautiful dessert is possible.\n\nimport matplotlib.pyplot as plt\nx = list(range(10))\ny = [2^a for a in x]\nplt.plot(x,y)\nplt.xlabel('Hours to bake')\nplt.ylabel('Difficulty of dessert')\nplt.title('Change in time required to bake dessert based on difficulty level')\n\nText(0.5, 1.0, 'Change in time required to bake dessert based on difficulty level')"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#general-flow-of-recipes",
+    "href": "index.html#general-flow-of-recipes",
+    "title": "simple_quarto_website",
+    "section": "General flow of recipes",
+    "text": "General flow of recipes\n\n\n\n\n\nflowchart LR\n    A(Start Baking) --&gt; B(Gather Ingredients)\n    B --&gt; C(Mix Ingredients)\n    C --&gt; D(Preheat Oven)\n    D --&gt; E(Bake Dessert)\n    E --&gt; F(Enjoy Your Creation!)"
+  },
+  {
+    "objectID": "index.html#cookies",
+    "href": "index.html#cookies",
+    "title": "simple_quarto_website",
+    "section": "Cookies",
+    "text": "Cookies\nCookies are the ultimate comfort treat—crispy, chewy, or soft, there’s a perfect cookie for everyone! In this section, you’ll find a variety of cookie recipes, from timeless classics like chocolate chip to fun twists and seasonal favorites. Whether you’re baking for a party, sharing with friends, or simply indulging yourself, these recipes will help you bake up a batch of deliciousness in no time. Grab your mixing bowl and let’s get started!\n\nChocolate Chip Cookies\n\n\n\nChocolate Chip Cookie\n\n\n\n\nIngredients:\n\n2 ¼ cups all-purpose flour\n1 tsp baking soda\n½ tsp salt\n1 cup unsalted butter, softened\n¾ cup granulated sugar\n¾ cup packed brown sugar\n1 tsp vanilla extract\n2 large eggs\n2 cups semi-sweet chocolate chips\n\n\nInstructions:\nPreheat your oven to 350°F (175°C) and line a baking sheet with parchment paper. In a medium bowl, whisk together the flour, baking soda, and salt, then set aside. In a large bowl, cream the softened butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy. Beat in the eggs one at a time until well combined. Gradually add the dry ingredients to the wet mixture, mixing just until combined. Stir in the chocolate chips until evenly distributed. Drop spoonfuls of dough onto the prepared baking sheet, leaving about 2 inches between each cookie. Bake for 10-12 minutes, or until the edges are golden brown but the centers are still soft. Let the cookies cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.\n\n\nSource for columns: https://stackoverflow.com/questions/74162212/two-columns-layout-in-quarto"
+  },
+  {
+    "objectID": "index.html#muffins",
+    "href": "index.html#muffins",
+    "title": "simple_quarto_website",
+    "section": "Muffins",
+    "text": "Muffins\nMuffins are a delightful and versatile treat, perfect for breakfast, snacks, or even dessert! In this section, you’ll discover an array of muffin recipes, from fruity favorites like blueberry and banana to decadent chocolate and savory options. Whether you’re in the mood for something sweet or wholesome, these easy-to-bake muffins are sure to hit the spot. Get ready to fill your kitchen with the warm, inviting aroma of freshly baked goodness!\n\nTable of Muffins\n\n\n\n\n\n\n\nType\nURL\n\n\n\n\nChocolate Chips\nhttps://sallysbakingaddiction.com/bakery-style-chocolate-chip-muffins/\n\n\nBlueberry\nhttps://www.allrecipes.com/recipe/6865/to-die-for-blueberry-muffins/\n\n\nDouble chocolate\nhttps://sallysbakingaddiction.com/double-chocolate-muffins/\n\n\n\n\n\n\nChocolate Chip Muffin"
+  },
+  {
+    "objectID": "index.html#cakes",
+    "href": "index.html#cakes",
+    "title": "simple_quarto_website",
+    "section": "Cakes",
+    "text": "Cakes\n\nLemon Cake"
+  },
+  {
+    "objectID": "index.html#extra-note",
+    "href": "index.html#extra-note",
+    "title": "simple_quarto_website",
+    "section": "Extra Note",
+    "text": "Extra Note\nTo convert temperatures from Celsius to Fahrenheit use the equation \\(C = (F - 32) \\frac{5}{9}\\)\nTo go the other direction, use the following equation:\n\\[ F = \\frac{9}{5}*C + 32 \\]"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFootnote: all content on this website was generated using ChatGPT and support for figuring out some features came from the following source: https://quarto.org/docs/authoring/markdown-basics.html↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#banana-bread",
+    "href": "slides/slides.html#banana-bread",
+    "title": "Breads",
+    "section": "Banana Bread",
+    "text": "Banana Bread\nCinnamon, nutmeg and ginger (Gordon 2007, 41–45) flavor this moist banana bread. Make banana bread when your bananas get brown polka dots on them.\n\nBanana Bread"
+  },
+  {
+    "objectID": "slides/slides.html#pumpkin-bread",
+    "href": "slides/slides.html#pumpkin-bread",
+    "title": "Breads",
+    "section": "Pumpkin Bread",
+    "text": "Pumpkin Bread\nWith its ripple of chocolate, cinnamon and toasted pumpkin seeds (and browned butter in the batter!), this pumpkin bread is an indulgent afternoon treat.\n\nPumpkin Bread"
+  },
+  {
+    "objectID": "slides/slides.html#blueberry-lemon-loaf",
+    "href": "slides/slides.html#blueberry-lemon-loaf",
+    "title": "Breads",
+    "section": "Blueberry Lemon Loaf",
+    "text": "Blueberry Lemon Loaf\nWhen life gives you lemons, make this dense, spongy loaf studded with blueberries. It’s a delious and simple crowd-pleasing breakfast. We like to bake it on Sunday so it can be enjoyed all week long.\n\nBlueberry Bread"
+  },
+  {
+    "objectID": "slides/slides.html#some-python-code",
+    "href": "slides/slides.html#some-python-code",
+    "title": "Breads",
+    "section": "Some Python Code",
+    "text": "Some Python Code\nimport matplotlib.pyplot as plt\nx = list(range(10))\ny = [2^a for a in x]\nplt.plot(x,y)\nplt.xlabel('Hours to bake')\nplt.ylabel('Difficulty of dessert')\nplt.title('Change in time required to bake dessert based on difficulty level')\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#sources",
+    "href": "slides/slides.html#sources",
+    "title": "Breads",
+    "section": "Sources",
+    "text": "Sources\nhttps://www.midwestliving.com/food/breakfast/sweet-bread-treats/\n\n\n\n\n\n\n\n\nGordon, Hannah. 2007. “In the Replay Booth: Looking at Appeals of Arbitration Decisions in Sports Through Miami Dolphins v. Williams.” Harv. Negot. L. Rev. 12: 503."
+  }
+]
